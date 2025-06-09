@@ -9,7 +9,7 @@ import Location from '@/components/sections/Location';
 import Specifications from '@/components/sections/Specifications';
 import Developers from '@/components/sections/Developers';
 import WhatsappButton from '@/components/common/WhatsappButton';
-// import Contact from '@/components/sections/Contact';
+
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
       <Location />
       <Specifications />
       <Developers />
-      {/* <Contact /> */}
+
       <WhatsappButton />
     </Layout>
   );
