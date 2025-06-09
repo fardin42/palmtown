@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #143131;
     --foreground: #ededed;
   }
 }
@@ -23,4 +23,21 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.hero {
+  background-image: url('/assets/png/palmtown_hero.jpg');
+  background-size: cover;
+  background-position:top;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure the hero section has a height */
+  width: 100%;
+}
+
+
+.monster{
+  font-family: "Montserrat Alternates", sans-serif;
 }
