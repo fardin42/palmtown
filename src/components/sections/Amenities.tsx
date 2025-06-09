@@ -29,10 +29,11 @@ export default function Amenities() {
             <div key={index} className="bg-white text-black p-4 rounded-lg shadow">
               <div className="flex flex-col gap-4 justify-start items-start aspect-[4/4]">
                   {/* image should be here */}
-               <div className="relative" >
-                 <Image src={amenity.image} alt={amenity.name} width={500} height={500} quality={100} priority className="object-cover" />
-                
-               </div>
+               <div className="relative" > 
+                  {amenity.image && (
+                    <Image src={amenity.image} alt={amenity.name} width={500} height={500} quality={100} priority className="object-cover" />
+                  )}
+                </div>
                <h3 className='text-4xl  bottom-0 shadow-inner'>{amenity.name}</h3>
                 
               </div>
