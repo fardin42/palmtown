@@ -311,8 +311,7 @@ const BrochureForm = ({ onClose })=>{
                                             className: "w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200",
                                             placeholder: "Enter your city",
                                             value: city,
-                                            onChange: (e)=>setCity(e.target.value),
-                                            required: true
+                                            onChange: (e)=>setCity(e.target.value)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/common/BrochureForm.tsx",
                                             lineNumber: 107,

@@ -111,7 +111,7 @@ const BrochureForm: React.FC<BrochureFormProps> = ({ onClose }) => {
                 placeholder="Enter your city"
                 value={city}
                 onChange={(e) => setCity(e.target.value)}
-                required
+              
               />
             </div>
           </div>
