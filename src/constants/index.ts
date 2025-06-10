@@ -39,7 +39,7 @@ export const APARTMENT_TYPES: ApartmentType[] = [
       'Comfortable bedrooms with attached balconies (select units)',
       'Premium fittings and fixtures',
     ],
-    image: '/assets/png/plans/floor-plan-2bhk.png',
+    image: '/assets/png/plans/floor-plan-2bhk.webp',
   },
   {
     type: '3BHK',
@@ -50,7 +50,7 @@ export const APARTMENT_TYPES: ApartmentType[] = [
       'Additional bedrooms for family or guests',
       'Utility area and ample storage',
     ],
-    image: '/assets/png/plans/floor-plan-3bhk.png'
+    image: '/assets/png/plans/floor-plan-3bhk.webp'
   },
 ];
 
@@ -59,27 +59,27 @@ export const FLOOR_PLANS: FloorPlan[] = [
   {
     type: 'typical',
     title: 'Typical Floor Layout (A to F Wing)',
-    image: '/assets/png/plans/typical-2nd-to-7th-floor-plan.png',
+    image: '/assets/png/plans/typical-2nd-to-7th-floor-plan.webp',
   },
   {
     type: 'First Floor Plan',
     title: 'First Floor Plan',
-    image: '/assets/png/plans/first-floor-plan.png',
+    image: '/assets/png/plans/first-floor-plan.webp',
   },
   {
     type: 'A To F Wing',
     title: '3 BHK Floor Plan',
-    image: '/assets/png/plans/a-to-f-wing.png',
+    image: '/assets/png/plans/a-to-f-wing.webp',
   },
   {
     type: 'Pondium Floor Plan',
     title: 'Pondium Floor Plan',
-    image: '/assets/png/plans/pondium-floor-plan.png',
+    image: '/assets/png/plans/pondium-floor-plan.webp',
   },
   {
     type: 'Terrace Floor Plan',
     title: 'Terracee Floor Plan',
-    image: '/assets/png/plans/terrace-floor-plan.png',
+    image: '/assets/png/plans/terrace-floor-plan.webp',
   },
 
 ];

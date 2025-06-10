@@ -29,7 +29,7 @@ img{
   height: auto;
 }
 .hero {
-  background-image: url('/assets/png/palmtown_hero.jpg');
+  background-image: url('/assets/png/palmtown_hero.webp');
   background-size: cover;
   background-position:top;
   background-repeat: no-repeat;
