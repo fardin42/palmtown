@@ -5,23 +5,11 @@ import Section from '@/components/ui/Section';
 import { APARTMENT_TYPES } from '@/constants';
 import { colors } from '@/styles/colors';
 import Image from 'next/image';
-import { useState } from 'react';
-import ImageModal from '../ui/ImageModal';
+
 
 
 export default function Offerings() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalImageUrl, setModalImageUrl] = useState('');
 
-  const openModal = (imageUrl: string) => {
-    setModalImageUrl(imageUrl);
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-    setModalImageUrl('');
-  };
 
 
 
@@ -40,7 +28,7 @@ export default function Offerings() {
             >
               {apartment.type === '2BHK' ? 'Spacious' : 'Luxurious'} {apartment.type} Apartments
             </h3>
-            <div className="relative w-[80%] mx-auto mb-6 cursor-pointer" onClick={() => openModal(apartment.image)}>
+            <div className="relative w-[80%] mx-auto mb-6 " >
               <Image src={apartment.image} width={500} height={300} className='' alt='Apartment Type' />
             </div>
             <p className="text-lg mb-4 text-slate-600">{apartment.description}</p>
@@ -53,7 +41,7 @@ export default function Offerings() {
           </div>
         ))}
       </div>
-      <ImageModal isOpen={isModalOpen} imageUrl={modalImageUrl} onClose={closeModal} />
+      {/* <ImageModal isOpen={isModalOpen} imageUrl={modalImageUrl} onClose={closeModal} /> */}
     </Section>
   );
 }

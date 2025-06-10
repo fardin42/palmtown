@@ -23,7 +23,7 @@ export default function Tab({ tabs, className = '' }: TabProps) {
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`px-4 py-2 rounded-md transition-colors border ${activeTab === tab.id ? 'text-white' : ''}`}
+            className={`px-4 py-2 rounded-md transition-colors cursor-pointer border ${activeTab === tab.id ? 'text-white' : ''}`}
             style={{
               backgroundColor: activeTab === tab.id ? colors.accentGreen : 'transparent',
               borderColor: colors.accentGreen,
